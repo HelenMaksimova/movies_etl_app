@@ -1,0 +1,14 @@
+name: movies_etl_app
+
+services:
+  etl_app:
+    build: ..
+    container_name: etl_app
+    env_file:
+      - ../.env.app
+    networks:
+      - movies_net
+
+networks:
+  movies_net:
+    external: true
