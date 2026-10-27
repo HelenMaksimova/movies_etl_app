@@ -1,0 +1,12 @@
+.venv/
+.idea/
+*.iml
+*.iws
+.idea_modules/
+__pycache__/
+*.pot
+*.pyc
+.env
+.env.*
+debug.log
+.*.config.yml
